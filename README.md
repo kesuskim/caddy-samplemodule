@@ -2,9 +2,12 @@
 - required xcaddy along with its requirements
 
 ```bash
-xcaddy build v2.4.6 \ # replace v2.4.6 with your target version
-  --with github.com/kesuskim/caddy-samplemodule
-  --output newcaddy   # you can use newcaddy binary in working directory
+# replace v2.4.6 with your target version
+# you can use newcaddy binary in working directory
+
+xcaddy build v2.4.6 \
+  --with github.com/kesuskim/caddy-samplemodule \
+  --output newcaddy
 ```
 
 ## Caddyfile example
